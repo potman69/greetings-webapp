@@ -1,0 +1,20 @@
+<h1>Welcome To Greetings!</h1>
+
+<form class="" action="/subjects/add" method="post">
+    <label id="name" class="enterName">Please enter your Name:</label>
+    <input id="mytext" type="text" name="subject" placeholder="Type your name here"><br>
+
+    <br>
+    <label>Please select a language:</label><br>
+          <input type="radio" id="english" value="english" name="language">
+          <label for="english" class="light">English</label>
+          <input type="radio" id="afrikaans" value="afrikaans" name="language">
+          <label for="afrikaans" class="light">Afrikaans</label>
+          <input type="radio" id="xhosa" value="xhosa" name="language">
+          <label for="xhosa" class="light">Xhosa</label><br>
+          <br>
+          <input class="submitButton"type="submit" name="" value="Press to get a special greeting"><br>
+          <br>
+          <p>{{greeting}}</p>
+<input class="namesGreeted"type="submit" name="" value="Names Greeted">
+</form>

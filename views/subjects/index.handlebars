@@ -1,0 +1,17 @@
+<h1>Welcome To Greetings!</h1>
+
+{{#if messages.error}}
+<div class="error">
+  {{messages.error}}
+  <br>
+  <br>
+</div>
+{{/if}}
+
+
+<a href="/subjects/add">Add new name</a>
+<ul>
+  {{#each subjects}}
+  <li>{{name}}</li>
+  {{/each}}
+</ul>
