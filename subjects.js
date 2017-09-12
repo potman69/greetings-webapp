@@ -50,7 +50,7 @@ module.exports = function(models) {
             }
 
             if (language == "english") {
-              greeting = "Hello " + results.name + " you have been greeted " + results.counter + " times today!";
+              greeting = "Hello " + results.name + " you have been greeted " + results.counter + " time today!";
             } else if (language == "afrikaans") {
               greeting = "Goeie more " + results.name + " jy is begroet " + results.counter + " keer vandag!";
             } else if (language == "xhosa") {
